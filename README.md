@@ -1,4 +1,4 @@
-# README
+# Tubing Conditions App
 
 Add Boulder Tubing API url to your .env file to make requests for tubing data.
 
