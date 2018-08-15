@@ -1,0 +1,11 @@
+<h1>Boulder Creek Tubing Conditions</h1>
+
+<%- if @current_conditions.tubable? %>
+  <p class="good-conditions">
+    Today is a great day for tubing!
+  </p>
+<%- else %>
+  <p class="bad-conditions">
+    Today is not a good day for tubing because <%= @current_conditions.reasons.to_sentence %>.
+  </p>
+<% end %>
